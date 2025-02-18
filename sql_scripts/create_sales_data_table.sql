@@ -1,0 +1,21 @@
+CREATE TABLE sales_data (
+    transaction_id SERIAL PRIMARY KEY,
+    customer_id INT NULL,
+    transaction_date TIMESTAMP,
+    transaction_amount FLOAT,  
+    payment_method VARCHAR(50),
+    quantity INT,
+    discount_percent FLOAT, 
+    city VARCHAR(100),
+    store_type VARCHAR(50),
+    customer_age INT NULL,
+    customer_gender VARCHAR(20),
+    loyalty_points INT,
+    product_name VARCHAR(100),
+    region VARCHAR(50),
+    returned VARCHAR(10),
+    feedback_score INT,
+    shipping_cost FLOAT,  
+    delivery_time_days INT,
+    is_promotional VARCHAR(10)
+);
