@@ -1,0 +1,21 @@
+SELECT 
+    COUNT(*) AS total_rows,
+    SUM(CASE WHEN customer_id IS NULL THEN 1 ELSE 0 END) AS customer_id_nulls,
+    SUM(CASE WHEN transaction_date IS NULL THEN 1 ELSE 0 END) AS transaction_date_nulls,
+    SUM(CASE WHEN transaction_amount IS NULL THEN 1 ELSE 0 END) AS transaction_amount_nulls,
+    SUM(CASE WHEN payment_method IS NULL THEN 1 ELSE 0 END) AS payment_method_nulls,
+    SUM(CASE WHEN quantity IS NULL THEN 1 ELSE 0 END) AS quantity_nulls,
+    SUM(CASE WHEN discount_percent IS NULL THEN 1 ELSE 0 END) AS discount_percent_nulls,
+    SUM(CASE WHEN city IS NULL THEN 1 ELSE 0 END) AS city_nulls,
+    SUM(CASE WHEN store_type IS NULL THEN 1 ELSE 0 END) AS store_type_nulls,
+    SUM(CASE WHEN customer_age IS NULL THEN 1 ELSE 0 END) AS customer_age_nulls,
+    SUM(CASE WHEN customer_gender IS NULL THEN 1 ELSE 0 END) AS customer_gender_nulls,
+    SUM(CASE WHEN loyalty_points IS NULL THEN 1 ELSE 0 END) AS loyalty_points_nulls,
+    SUM(CASE WHEN product_name IS NULL THEN 1 ELSE 0 END) AS product_name_nulls,
+    SUM(CASE WHEN region IS NULL THEN 1 ELSE 0 END) AS region_nulls,
+    SUM(CASE WHEN returned IS NULL THEN 1 ELSE 0 END) AS returned_nulls,
+    SUM(CASE WHEN feedback_score IS NULL THEN 1 ELSE 0 END) AS feedback_score_nulls,
+    SUM(CASE WHEN shipping_cost IS NULL THEN 1 ELSE 0 END) AS shipping_cost_nulls,
+    SUM(CASE WHEN delivery_time_days IS NULL THEN 1 ELSE 0 END) AS delivery_time_days_nulls,
+    SUM(CASE WHEN is_promotional IS NULL THEN 1 ELSE 0 END) AS is_promotional_nulls
+FROM sales_data;
