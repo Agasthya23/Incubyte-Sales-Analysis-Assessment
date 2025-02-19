@@ -1,3 +1,4 @@
+-- Handle null values for region by setting the most frequent region by city
 WITH CityRegionFreq AS (
     SELECT city, region, COUNT(*) AS region_count
     FROM sales_data
