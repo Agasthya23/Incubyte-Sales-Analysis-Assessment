@@ -19,8 +19,7 @@ SELECT
 FROM sales_data
 GROUP BY store_type;
 
-
-
+-- Return rate by discount range
 SELECT 
     CASE 
         WHEN discount_percent BETWEEN 0 AND 10 THEN '0-10%'
@@ -37,9 +36,7 @@ FROM sales_data
 GROUP BY discount_range
 ORDER BY discount_range;
 
-
-
---Promotional
+-- Total sales and revenue by promotional status
 SELECT 
     is_promotional,
     COUNT(*) AS total_sales,
@@ -48,5 +45,3 @@ SELECT
 FROM sales_data
 GROUP BY is_promotional
 ORDER BY total_revenue DESC;
-
-

@@ -33,7 +33,6 @@ GROUP BY month
 ORDER BY net_revenue DESC
 LIMIT 1;
 
-
 -- Top method of payment in terms of Transaction Amount
 SELECT payment_method, ROUND(SUM(CASE WHEN Returned = 'No' THEN transaction_amount ELSE 0 END)::numeric, 2) AS total_amount
 FROM sales_data
@@ -51,9 +50,3 @@ SELECT store_type, ROUND(SUM(CASE WHEN Returned = 'No' THEN transaction_amount E
 FROM sales_data
 GROUP BY store_type
 ORDER BY store_type DESC;
-
-
-
-
-
-
