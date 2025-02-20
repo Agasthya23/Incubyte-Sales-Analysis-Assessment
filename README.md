@@ -47,20 +47,14 @@ No clear trend for returns across different discount ranges (ranging from 2.98 t
 - **Lowest Feedback City**: Bangalore (South) with an average score of 2.96.
 
 ### Customer Insights:
-- **Most Profitable Customer**: Customer 10504 with ₹563,997.23 spent.
+- **Most Profitable Customer**: Customer_ID 10504 with ₹563,997.23 spent.
 
 #### Customer Age Groups:
 - **Senior (51+)**: Highest total revenue of ₹2,143,786,143.53 (~₹2143.79 Cr)
 - **Middle (31-50)**: ₹1,812,634,141.46 (~₹1812.63 Cr)
 - **Young (18-30)**: ₹1,150,032,015.39 (~₹1150.03 Cr)
 
-### Delivery Time vs Feedback:
-- **Fast Delivery (0-2 Days)**: 112,446 orders with a feedback score of 3.00
-- **Standard Delivery (3-5 Days)**: 230,194 orders with a feedback score of 3.00
-- **Slow Delivery (6+ Days)**: 157,360 orders with a feedback score of 3.00
-
 ### Additional Insights:
-- **Top Feedback Products**: Apple, Laptop, Notebook, Sofa, T-Shirt, all having consistent feedback of 3.00.
 - **Promotional Sales**:
   - **Promotional**: ₹2,559,606,274.97 (~₹2559.61 Cr) revenue from 249,315 sales
   - **Non-Promotional**: ₹2,546,846,025.41 (~₹2546.85 Cr) revenue from 250,685 sales
@@ -94,7 +88,7 @@ These metrics and insights provide a comprehensive overview of the business, pro
 ### Delivery and Customer Satisfaction Insights:
 - **Delivery Time Doesn't Affect Feedback**: There is no noticeable variation in feedback score based on delivery speed. All delivery categories (Fast, Standard, Slow) received the same average feedback score of 3.00, implying that delivery time may not be a major factor influencing customer satisfaction, or customers are generally neutral about delivery times.
 - **Slow Deliveries Are Significant**: Despite no change in feedback score, the Slow (6+ Days) category has a larger number of orders compared to Fast (0-2 Days). This could indicate that customers are still willing to tolerate longer delivery times, potentially driven by price or product availability.
-
+-**Loyalty Point**: 
 ### Feedback and Product Performance Insights:
 - **Consistent Feedback Across Products**: Most products, including Apple, Laptop, Notebook, and others, all have an average feedback score of 3.00, suggesting that customers' feedback is generally neutral or that the product quality meets their expectations but doesn't excite them. This suggests room for product or service enhancements to push customer satisfaction above average.
 
