@@ -15,4 +15,3 @@ SELECT product_name, SUM(CASE WHEN Returned = 'Yes' THEN quantity ELSE 0 END) AS
 FROM sales_data
 GROUP BY product_name
 ORDER BY total_quantity_returned DESC
-
