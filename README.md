@@ -1,8 +1,7 @@
 # Sales Data Analysis - 2022
 
 ## Project Overview
-This project focuses on analyzing the sales data from a retail company for the year 2022. The goal is to derive key me
-trics and insights to help optimize business operations, improve customer satisfaction, and enhance sales strategies. 
+This project focuses on analyzing the sales data from a retail company for the year 2022. The goal is to derive key metrics and insights to help optimize business operations, improve customer satisfaction, and enhance sales strategies. 
 ---
 
 ## Business Performance Metrics - 2022
