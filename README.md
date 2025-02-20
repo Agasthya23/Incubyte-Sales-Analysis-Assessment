@@ -1,8 +1,8 @@
 # Sales Data Analysis - 2022
 
 ## Project Overview
-This project focuses on analyzing the sales data from a retail company for the year 2022. The goal is to derive key metrics and insights to help optimize business operations, improve customer satisfaction, and enhance sales strategies. The analysis covers various aspects including total transactions, regional sales performance, product performance, customer behavior, return rates, feedback scores, and more.
-
+This project focuses on analyzing the sales data from a retail company for the year 2022. The goal is to derive key me
+trics and insights to help optimize business operations, improve customer satisfaction, and enhance sales strategies. 
 ---
 
 ## Business Performance Metrics - 2022
@@ -27,7 +27,7 @@ This project focuses on analyzing the sales data from a retail company for the y
 - **Revenue Lost Due to Returned Products**: ₹5,096,210,659.81 (~₹5096.21 Cr)
 - **Return Rate**: 49.89%
 - **Total Returned Items**: 249,467
-- **Most Returned Product**: Laptop
+- **Most Returned Product**: NoteBook with total returns of 45061
 
 ### Return Rate by Discount Range:
 No clear trend for returns across different discount ranges (ranging from 2.98 to 3.03 feedback score).
@@ -77,7 +77,8 @@ These metrics and insights provide a comprehensive overview of the business, pro
 - **Product Returns**: Despite Laptops being the top revenue generator, they also appear to be the most returned product, suggesting potential quality or customer satisfaction issues that need addressing.
 
 ### Returns and Customer Behavior Insights:
-- **High Return Rate**: Nearly 50% of transactions resulted in returns, which is quite significant. This suggests that customers are not fully satisfied with their purchases or that returns are being influenced by factors like product quality, incorrect delivery, or changing customer preferences.
+- **High Return Rate**: Nearly 50% of transactions resulted in returns, which is quite significant.
+- **High Return and High Loyalty Points for Notebook**: The Notebook product appears to be the most returned product, but it also accumulates the most loyalty points. This could suggest that customers are purchasing it in high quantities for the purpose of earning loyalty points and may be returning it afterward.
 - **Impact of Promotions**: Promotional and non-promotional sales show little difference in terms of average transaction value, but total sales revenue is slightly higher in promotional sales, indicating promotions may slightly boost sales volume.
 - **Feedback Patterns**: Despite the high return rate, average feedback scores across all products and delivery categories are consistently 3.00, implying neutral or moderate customer satisfaction. This points to potential areas of improvement in customer service, product quality, or post-purchase support.
 
@@ -88,7 +89,7 @@ These metrics and insights provide a comprehensive overview of the business, pro
 ### Delivery and Customer Satisfaction Insights:
 - **Delivery Time Doesn't Affect Feedback**: There is no noticeable variation in feedback score based on delivery speed. All delivery categories (Fast, Standard, Slow) received the same average feedback score of 3.00, implying that delivery time may not be a major factor influencing customer satisfaction, or customers are generally neutral about delivery times.
 - **Slow Deliveries Are Significant**: Despite no change in feedback score, the Slow (6+ Days) category has a larger number of orders compared to Fast (0-2 Days). This could indicate that customers are still willing to tolerate longer delivery times, potentially driven by price or product availability.
--**Loyalty Point**: 
+
 ### Feedback and Product Performance Insights:
 - **Consistent Feedback Across Products**: Most products, including Apple, Laptop, Notebook, and others, all have an average feedback score of 3.00, suggesting that customers' feedback is generally neutral or that the product quality meets their expectations but doesn't excite them. This suggests room for product or service enhancements to push customer satisfaction above average.
 
