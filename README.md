@@ -26,8 +26,8 @@
 - Online revenue: **₹2,556.58 Cr**.
 - In-store revenue: **₹25.50 Cr**.
 
-## Return Insights
-- Total revenue lost due to returns: **₹5,096.21 Cr**.
+## Returned products Insights
+- Total revenue lost due to returned: **₹5,096.21 Cr**.
 - Return rate: **49.89%**, meaning nearly half of all transactions were returned.
 
 ## Discount and Promotional Insights
